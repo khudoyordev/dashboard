@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  background-color: #f4f9f8;
+}
+.container-fluid .aside-left {
+  width: 260px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container-fluid .aside-left .navbar-brand {
+  padding: 0 31px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.container-fluid .aside-left .navbar-brand .img {
+  width: 29px;
+  height: 35px;
+}
+.container-fluid .aside-left .navbar-brand .logo-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0768b5;
+}
+.container-fluid .aside-left .aside-left_menu {
+  position: relative;
+  cursor: pointer;
+  border-radius: 0px 37px 37px 0px;
+  display: flex;
+  align-items: center;
+  width: 243px;
+  height: 50px;
+  gap: 15px;
+  padding-left: 31px;
+}
+.container-fluid .aside-left .aside-left_menu:hover::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #2f9ff8;
+  border-radius: 100%;
+  top: 40%;
+  left: 5%;
+}
+.container-fluid .aside-left .aside-left_menu:hover {
+  background: rgba(47, 159, 248, 0.1);
+}
+.container-fluid .aside-left .aside-left_menu .bi {
+  font-size: 24px;
+}
+.container-fluid .aside-left .aside-left_menu:hover .bi {
+  color: #2f9ff8;
+}
+.container-fluid .aside-left .aside-left_menu .menu-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 15px;
+}
+.container-fluid .aside-left .aside-left_menu:hover .menu-title {
+  color: #2f9ff8;
+}
+.container-fluid .aside-left .aside-left_covid {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 243px;
+  height: 50px;
+  gap: 15px;
+  padding-left: 31px;
+  border-top: 1px solid #a1afb9;
+  border-bottom: 0.2px solid #a1afb9;
+}
+.container-fluid .aside-left .aside-left_covid .bi {
+  font-size: 24px;
+}
+.container-fluid .aside-left .aside-left_covid .menu-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 15px;
+}
+.container-fluid .aside-left .card {
+  background: #2f9ff8;
+  border-radius: 4px;
+  width: 227px;
+  height: 113px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container-fluid .aside-left .card > * {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container-fluid .aside-left .card .bi {
+  font-size: 24px;
+  color: #fff;
+}
+.container-fluid .aside-left .card .card-title {
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  margin: 0;
+}
+.container-fluid .aside-left .card .card-sum .sum-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+.container-fluid .aside-left .card .card-sum .sum-title .title {
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+}
+.container-fluid .aside-left .card .card-sum .btn {
+  width: 110px;
+  height: 38px;
+  background: #0768b5;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+}
+.container-fluid .aside-left .card .card-sum .btn:focus {
+  box-shadow: none;
+}
+.container-fluid .main {
+  width: 861px;
+}
+.container-fluid .main .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 45px;
+}
+.container-fluid .main .navbar .form-inputs {
+  position: relative;
+  border-radius: 4px;
+  background: rgba(47, 159, 248, 0.04);
+  border-radius: 4px;
+  width: 350px;
+  height: 36px;
+}
+.container-fluid .main .navbar .form-inputs .form-control {
+  border-radius: 0px;
+  background: transparent;
+  border: none;
+}
+.container-fluid .main .navbar .form-inputs .form-control:focus {
+  box-shadow: none;
+}
+.container-fluid .main .navbar .form-inputs .icon {
+  position: absolute;
+  right: 10px;
+  top: 15%;
+  width: 18px;
+  height: 18px;
+}
+.container-fluid .main .navbar .navbar-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container-fluid .main .navbar .navbar-items .icon-person {
+  font-size: 24px;
+}
+.container-fluid .main .navbar .navbar-items .title {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+.container-fluid .main .navbar .navbar-items .icon-arrow {
+  width: 18px;
+  height: 8px;
+  margin-left: 25px;
+}
+.container-fluid .aside-right {
+  width: 319px;
+}/*# sourceMappingURL=style.css.map */
