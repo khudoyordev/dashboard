@@ -188,6 +188,398 @@
   height: 8px;
   margin-left: 25px;
 }
+.container-fluid .main .main-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 30px 0 30px 50px;
+}
+.container-fluid .main .main-menu {
+  padding: 20px 0;
+}
+.container-fluid .main .main-menu .navbar .btn {
+  border-radius: 20px;
+  background-color: #fff;
+  border: none;
+}
+.container-fluid .main .main-menu .navbar .btn:hover {
+  background-color: #2f9ff8;
+  color: #fff;
+}
+.container-fluid .main .main-menu .navbar .active {
+  background-color: #2f9ff8;
+}
+.container-fluid .main .card {
+  width: 718px;
+  height: 164px;
+  margin: 0 auto;
+  border: none;
+}
+.container-fluid .main .card .card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-fluid .main .card .card-body .card-content > * {
+  display: flex;
+  align-items: center;
+}
+.container-fluid .main .card .card-body .card-content .card-title {
+  font-weight: 500;
+  font-size: 17px;
+  color: #072d4b;
+}
+.container-fluid .main .card .card-body .card-content .card-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #072d4b;
+  opacity: 0.6;
+}
+.container-fluid .main .card .card-body .card-content .card-body_time {
+  gap: 55px;
+}
+.container-fluid .main .card .card-body .card-content .card-body_time > * {
+  display: flex;
+  align-items: center;
+}
+.container-fluid .main .card .card-body .card-content .card-body_time .time-block {
+  gap: 15px;
+}
+.container-fluid .main .card .card-body .card-content .card-body_time .time-block .time-title,
+.container-fluid .main .card .card-body .card-content .card-body_time .time-block .time {
+  font-weight: 400;
+  font-size: 12px;
+  color: #072d4b;
+  opacity: 0.4;
+}
+.container-fluid .main .card .card-body .card-content .card-body_time .time-block .dot {
+  display: block;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background: #2f9ff8;
+  opacity: 0.4;
+}
+.container-fluid .main .card .card-body .card-content .card-body_time .time-share {
+  cursor: pointer;
+}
+.container-fluid .main .card .card-body .card-content .card-body_time .time-share .bi {
+  font-size: 16px;
+  color: #0768b5;
+}
+.container-fluid .main .card .card-body .card-content .card-body_time .time-share .share-title {
+  font-weight: 400;
+  font-size: 12px;
+  color: #0768b5;
+  padding-left: 5px;
+}
+.container-fluid .main .card .card-img {
+  width: 152px;
+  height: 130px;
+}
+.container-fluid .main .card-box {
+  display: flex;
+  align-items: center;
+  padding: 26px;
+}
+.container-fluid .main .card-box .card {
+  width: 45%;
+  height: 191px;
+}
+.container-fluid .main .card-box .card .card-body_time {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container-fluid .main .card-box .card .card-body_time > * {
+  display: flex;
+  align-items: center;
+}
+.container-fluid .main .card-box .card .card-body_time .time-block {
+  gap: 15px;
+}
+.container-fluid .main .card-box .card .card-body_time .time-block .time-title,
+.container-fluid .main .card-box .card .card-body_time .time-block .time {
+  font-weight: 400;
+  font-size: 12px;
+  color: #072d4b;
+  opacity: 0.4;
+}
+.container-fluid .main .card-box .card .card-body_time .time-block .dot {
+  display: block;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background: #2f9ff8;
+  opacity: 0.4;
+}
+.container-fluid .main .card-box .card .card-body_time .time-share {
+  cursor: pointer;
+}
+.container-fluid .main .card-box .card .card-body_time .time-share .bi {
+  font-size: 16px;
+  color: #0768b5;
+}
+.container-fluid .main .card-box .card .card-body_time .time-share .share-title {
+  font-weight: 400;
+  font-size: 12px;
+  color: #0768b5;
+  padding-left: 5px;
+}
+.container-fluid .main .box-card .card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.container-fluid .main .box-card .card-content > * {
+  display: flex;
+  align-items: center;
+}
+.container-fluid .main .box-card .card-content .content-title {
+  gap: 15px;
+}
+.container-fluid .main .box-card .card-content .content-title .bi {
+  font-size: 24px;
+}
+.container-fluid .main .box-card .card-content .content-title .title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #072d4b;
+  padding-left: 15px;
+}
+.container-fluid .main .box-card .card-content .content-arrow {
+  gap: 15px;
+}
+.container-fluid .main .box-card .card-content .content-arrow .bi {
+  font-size: 20px;
+  cursor: pointer;
+}
+.container-fluid .main .box-card .card-content .content-arrow .bi:first-child {
+  color: #072d4b;
+  opacity: 0.5;
+}
+.container-fluid .main .box-card .card-content .content-arrow .bi:hover {
+  color: #072d4b;
+  opacity: 1;
+}
+.container-fluid .main .box-card .instagram {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 25px;
+}
+.container-fluid .main .box-card .instagram .card {
+  width: 142px;
+  height: 185px;
+}
+.container-fluid .main .box-card .instagram .card > * {
+  display: flex;
+  flex-direction: column;
+}
+.container-fluid .main .box-card .instagram .card .card-img-top {
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  padding-top: 5px;
+}
+.container-fluid .main .box-card .instagram .card .card-body .card-title {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #072d4b;
+}
+.container-fluid .main .box-card .instagram .card .card-body .card-text {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #072d4b;
+  opacity: 0.4;
+}
+.container-fluid .main .box-card .instagram .card .card-body .btn {
+  width: 117px;
+  height: 32px;
+}
+.container-fluid .main .footer {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container-fluid .main .footer > * {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-fluid .main .footer .footer-content {
+  padding: 0 60px;
+}
+.container-fluid .main .footer .footer-content .text {
+  font-weight: 400;
+  font-size: 12px;
+  color: #072d4b;
+  opacity: 0.4;
+}
+.container-fluid .main .footer .footer-content .footer-service {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.container-fluid .main .footer .footer-content .footer-service .text {
+  font-weight: 400;
+  font-size: 12px;
+  color: #072d4b;
+  opacity: 0.4;
+}
+.container-fluid .main .footer .btns {
+  width: 118px;
+  height: 38px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #072d4b;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+.container-fluid .main .footer .btns:hover {
+  background-color: #2f9ff8;
+  color: #fff;
+  border: none;
+}
 .container-fluid .aside-right {
   width: 319px;
+  padding: 0 20px;
+}
+.container-fluid .aside-right .navbar-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.container-fluid .aside-right .navbar-items .icon-person {
+  font-size: 24px;
+}
+.container-fluid .aside-right .navbar-items .title {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+.container-fluid .aside-right .navbar-items .icon-arrow {
+  width: 18px;
+  height: 8px;
+  margin-left: 25px;
+}
+.container-fluid .aside-right .weather-change .card {
+  margin-top: 105px;
+  border: none;
+}
+.container-fluid .aside-right .weather-change .card .card-body > * {
+  display: flex;
+  align-items: center;
+}
+.container-fluid .aside-right .weather-change .card .card-body .card-titles {
+  justify-content: space-between;
+  border-bottom: 0.2px solid #92b0c7;
+}
+.container-fluid .aside-right .weather-change .card .card-body .card-titles .card-title {
+  font-weight: 400;
+  font-size: 15px;
+  color: #072d4b;
+  margin: 0;
+}
+.container-fluid .aside-right .weather-change .card .card-body .card-titles .bi {
+  font-size: 18px;
+}
+.container-fluid .aside-right .weather-change .card .card-body .climate {
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.container-fluid .aside-right .weather-change .card .card-body .climate .deg {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container-fluid .aside-right .weather-change .card .card-body .climate .deg .weather {
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #072d4b;
+}
+.container-fluid .aside-right .weather-change .card .card-body .climate .deg .weather-deg {
+  display: block;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #072d4b;
+}
+.container-fluid .aside-right .weather-change .card .card-body .climate .bi {
+  color: #ffcf26;
+  font-size: 42px;
+}
+.container-fluid .aside-right .weather-change .card .card-body .card-links .card-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  color: #072d4b;
+}
+.container-fluid .aside-right .weather-change .card .card-body .card-links .card-link:hover {
+  opacity: 0.7;
+}
+.container-fluid .aside-right .writer {
+  margin-top: 10px;
+}
+.container-fluid .aside-right .writer .card {
+  border: none;
+}
+.container-fluid .aside-right .writer .card .card-body > * {
+  display: flex;
+  align-items: center;
+}
+.container-fluid .aside-right .writer .card .card-body .card-content {
+  gap: 10px;
+}
+.container-fluid .aside-right .writer .card .card-body .card-content .bi {
+  font-size: 24px;
+}
+.container-fluid .aside-right .writer .card .card-body .card-content .title {
+  font-weight: 400;
+  font-size: 15px;
+  color: #072d4b;
+}
+.container-fluid .aside-right .writer .card .card-body .card-texts .card-text {
+  font-weight: 400;
+  font-size: 12px;
+  color: #072d4b;
+  opacity: 0.6;
+  width: 111px;
+}
+.container-fluid .aside-right .writer .card .card-body .card-texts .btn {
+  width: 110px;
+  height: 38px;
+  border: 0.2px solid #2f9ff8;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #2f9ff8;
+}
+.container-fluid .aside-right .writer .card .card-body .card-texts .btn:hover {
+  background-color: #2f9ff8;
+  color: #fff;
+}
+.container-fluid .aside-right .reg {
+  margin-top: 10px;
+}
+.container-fluid .aside-right .reg .card .title {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #072d4b;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.container-fluid .aside-right .reg .card .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }/*# sourceMappingURL=style.css.map */
